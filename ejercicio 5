@@ -1,0 +1,34 @@
+Algoritmo tienda
+	Escribir "Algoritmo oroscopo";
+	
+	Definir dia, mes, a�o Como Entero
+
+	Definir aries, tauro, geminis como texto
+	
+	Definir mes1, mes2, mes3, mes4, mes5, mes6, mes7, mes8, mes9, mes10, mes11, mes12 Como Entero
+	
+	Escribir "ingresa tu mes ";
+	Leer mes1;
+	
+	Si  mes3>=mes4  Entonces
+		Escribir "Eres signo aries";
+	SiNo
+		Escribir "ingresa nuevamente tu mes";
+	Fin Si
+
+		Si mes4 >= mes5 y mes3 <= mes7 Entonces
+			Escribir "eres signo tauro";
+		SiNo
+		Fin Si
+		
+			Si mes4 >= mes5 y mes5 <= mes6 Entonces
+				EScribir "eres signo geminis ";
+			SiNo
+				Escribir "ingresa nuevamnete tu mes ";
+			Fin Si
+			
+			Escribir "ingresa nuevamente tu mes ";
+	
+FinAlgoritmo
+	
+	
